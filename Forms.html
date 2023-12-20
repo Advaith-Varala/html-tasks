@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<br lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="./download.png">
+    <link rel="stylesheet" href="style.css" />
+    <title>Register Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;">Registeration Form</h2>
+            <div class="input-group">
+                <label for="Fname">First Name:</label>
+                <input type="text" name="Fname" id="Fname" placeholder="First name" required />
+            </div>
+            <div class="input-group">
+                <label for="Lname">Last Name:</label>
+                <input type="text" name="Lname" id="Lname" placeholder="Last name" required />
+            </div>
+            <div class="input-group">
+                <label for="email">Email ID:</label>
+                <input type="email" name="email" id="email" placeholder="Email" required />
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="Password" maxlength="8" placeholder="password"
+                    required />
+            </div>
+            <div class="input-group">
+                <label for="DOB">Date Of Birth:</label>
+                <input type="date" name="DOB" id="DOB" required> 
+            </div>
+            <div class="input-group">
+                <label for="Address">Address:</label>
+                <input type="text" name="address" id="Address" placeholder="address">
+            </div>
+            <div class="input-group">
+                <label for="Resume">Upload your Resume:</label>
+                <input type="file" name="Resume" id="resume" multiple>
+            </div>
+            <div class="input-group">
+                <label for="mobile">Mobile No:</label>
+                <input type="tel" name="mobile" id="mobile">
+            </div>
+
+
+            <button type="submit" value="register">Register</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
